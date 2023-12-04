@@ -2,6 +2,11 @@ from .market_calendar import MarketCalendar
 from .calendars.asx import ASXExchangeCalendar
 from .calendars.bmf import BMFExchangeCalendar
 from .calendars.bse import BSEExchangeCalendar
+from .calendars.xpar import ParisStockExchangeCalendar
+from .calendars.xwar import PolandStockExchange
+from .calendars.xses import SingaporeExchangeCalendar
+from .calendars.xmex import MexicoStockExchangeCalendar
+from .calendars.xmad import ISEExchangeCalendar
 from .calendars.cboe import CFEExchangeCalendar
 from .calendars.cme import \
     CMEEquityExchangeCalendar, \
